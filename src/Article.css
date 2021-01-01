@@ -1,0 +1,37 @@
+.article {
+  /* display: flex;
+  align-items: center; */
+  /* flex-wrap: wrap; */
+  height: 200px;
+  width: 400px;
+  background-color: #212434;
+  margin: 10px;
+  padding: 10px;
+  font-weight: 400;
+  border-radius: 10px;
+}
+
+.article > p {
+  font-size: 20px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+.article__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+
+.article__date {
+  color: #21b1b8;
+  font-weight: 500;
+}
+
+.article__word {
+  color: #5c54cb;
+  font-weight: 500;
+}
